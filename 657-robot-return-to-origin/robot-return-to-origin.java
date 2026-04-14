@@ -14,11 +14,7 @@ class Solution {
             if (moves.charAt(i) == 'R')
             R++;
         }
-        if (U==D&&L==R){
-            return true;
-        } else{
-            return false;
-        }
+        return U == D && L == R;
         
     }
 }
